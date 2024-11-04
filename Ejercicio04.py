@@ -3,3 +3,5 @@ Ganador_Uno = float(input('¿Cual es el primer numero ganador?'))
 Ganador_Dos = float(input('Cual es el segundo numero ganador?'))
 Ganador_Tres = float(input('¿Cual es el tercer numero ganador?'))
 Lista_Ganadores = [Ganador_Uno, Ganador_Dos, Ganador_Tres]
+Lista_Ganadores.sort()
+print (Lista_Ganadores)
